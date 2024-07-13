@@ -14,7 +14,7 @@ body {
 
 .quiz-container {
     background-color: white;
-    height: 350px;
+    height: 370px;
     width: 500px;
 }
 
@@ -38,4 +38,13 @@ ul{
 li{
     font-size: 1.1rem;
     padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.submit{
+    background-color: gold;
+    height: 60px;
+    border: none;
+    width: 100%;
+    font-size: 1.2rem;
 }
