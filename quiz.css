@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-container {
+    background-color: white;
+    height: 350px;
+    width: 500px;
+}
+
+.question-tag {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.question-name {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+ul{
+    list-style: none;
+
+}
+li{
+    font-size: 1.1rem;
+    padding-left: 30px;
+}
