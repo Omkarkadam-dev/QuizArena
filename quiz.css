@@ -1,50 +1,53 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
-
-body {
+body{
     height: 100vh;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.quiz-container {
+.quiz-container{
     background-color: white;
-    height: 370px;
+    height: 570px;
     width: 500px;
+     position: relative;
+     border-radius: 10px;
 }
 
-.question-tag {
+.question-tag{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
-
+    font-size: 50px;
 }
-
-.question-name {
+.question{
     font-size: 1.5rem;
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 30px;
     text-align: center;
+
 }
 ul{
     list-style: none;
-
 }
 li{
     font-size: 1.1rem;
     padding-left: 30px;
     margin-bottom: 20px;
+    margin-top: 40px;
 }
-
 .submit{
     background-color: gold;
-    height: 60px;
     border: none;
-    width: 100%;
+    height: 60px;
+    width: 50%;
     font-size: 1.2rem;
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 130px;
+    margin-top: 30px;
 }
